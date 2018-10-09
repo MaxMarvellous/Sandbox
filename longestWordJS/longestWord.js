@@ -14,10 +14,10 @@ function main(){
     let pattern = new RegExp('\\s*\\W*\\s');
     let words = quotes.split(pattern);
 
-    console.log('There are ' + words.length + ' words in this text')
+    console.log('There are ' + words.length + ' words in this text');
 
     let maxChars = '';
-    for (i = 0; i < words.length; i++){
+    for (let i = 0; i < words.length; i++){
         if(maxChars.length < words[i].length){
             maxChars = words[i];
         }
