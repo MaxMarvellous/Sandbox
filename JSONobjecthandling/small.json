@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "56ffc5be043244081938576d",
+    "male": true,
+    "house": "House Hightower",
+    "slug": "Abelar_Hightower",
+    "name": "Abelar Hightower",
+    "__v": 0,
+    "pageRank": 2.5,
+    "books": [
+      "The Hedge Knight"
+    ],
+    "updatedAt": "2016-04-02T13:14:38.834Z",
+    "createdAt": "2016-04-02T13:14:38.834Z",
+    "titles": [
+      "Ser"
+    ]
+  },
+  {
+    "_id": "56ffc5be043244081938576e",
+    "male": true,
+    "house": "House Frey",
+    "slug": "Addam_Frey",
+    "name": "Addam Frey",
+    "__v": 0,
+    "pageRank": 4.5,
+    "books": [
+      "The Mystery Knight"
+    ],
+    "updatedAt": "2016-04-02T13:14:38.875Z",
+    "createdAt": "2016-04-02T13:14:38.875Z",
+    "titles": [
+      "Ser"
+    ]
+  },
+  {
+    "_id": "56ffc5be043244081938576f",
+    "male": true,
+    "slug": "Addam",
+    "name": "Addam",
+    "__v": 0,
+    "pageRank": 1.5,
+    "books": [
+      "The Mystery Knight"
+    ],
+    "updatedAt": "2016-04-02T13:14:38.877Z",
+    "createdAt": "2016-04-02T13:14:38.877Z",
+    "titles": [
+      "Ser"
+    ]
+  },
+  {
+    "_id": "56ffc5be0432440819385770",
+    "dateOfDeath": 196,
+    "dateOfBirth": 183,
+    "male": true,
+    "house": "House Osgrey",
+    "slug": "Addam_Osgrey",
+    "name": "Addam Osgrey",
+    "__v": 0,
+    "pageRank": 6,
+    "books": [
+      "The Sworn Sword"
+    ],
+    "updatedAt": "2016-04-02T13:14:38.878Z",
+    "createdAt": "2016-04-02T13:14:38.878Z",
+    "titles": []
+  },
+  {
+    "_id": "56ffc5be0432440819385771",
+    "imageLink": "/misc/images/characters/Addam_Marbrand.jpeg",
+    "male": true,
+    "house": "House Marbrand",
+    "slug": "Addam_Marbrand",
+    "name": "Addam Marbrand",
+    "__v": 0,
+    "pageRank": 40,
+    "books": [
+      "A Game of Thrones",
+      "A Clash of Kings",
+      "A Storm of Swords",
+      "A Feast for Crows",
+      "A Dance with Dragons"
+    ],
+    "updatedAt": "2016-04-02T13:14:38.883Z",
+    "createdAt": "2016-04-02T13:14:38.883Z",
+    "titles": [
+      "Ser",
+      "Commander of the City Watch"
+    ]
+  }
+]
