@@ -1,15 +1,17 @@
 const fs = require('fs');
-const chars = {characters: []};
+const chars = require('./got_characters.json');
+
+console.log(chars.length);
+
+for (let i = 0; i < chars.length; i++) {
+    console.log(chars[i].name)
+}
 
 
 
-fs.readFile('./got_characters.json', 'utf-8', function (err, jsonStr) {
-    if (err) throw err;
-    const options = {
-        "columns": true,
-        "auto_parse": true,
-        "auto_parse_date": false
-    };
 
-});
+
+
+
+
 
