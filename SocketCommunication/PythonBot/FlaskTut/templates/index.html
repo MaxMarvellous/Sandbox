@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+{% if fantasie %}
+<h1>{{fantasie}}</h1>
+{% else %}
+<h1>YEEEEY</h1>
+{% endif %}
+<form action="http://localhost:1337/login" method="post">
+    <p>Name:</p>
+    <p><input type="text" name="name"/></p>
+    <p><input type="submit" value="submit"/></p>
+</form>
+</body>
+</html>
