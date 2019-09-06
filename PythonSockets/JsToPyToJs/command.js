@@ -1,0 +1,1 @@
+const io = require('socket.io').listen(1337);
