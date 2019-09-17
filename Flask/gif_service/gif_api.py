@@ -26,8 +26,8 @@ def handle_api_request(message):
     api = requests.get('https://api.giphy.com/v1/gifs/random?api_key=MljNOCjqN4L0t1kI7PZzrqRbdcDRAQ9w&tag=' +
                        message + '&rating=R').json().get('data').get('url')  # get("data").get('image_original_url')
     print('[->]   Client message: ', message)
-    emit('apiResponse', message)
-    print('[<-]   sending data ', message)
+    emit('apiResponse', api)
+    print('[<-]   sending data ', api)
 
 
 @socketio.on('testEmit')

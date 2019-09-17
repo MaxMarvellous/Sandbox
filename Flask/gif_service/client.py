@@ -18,7 +18,6 @@ def connect():
 @sio.on('apiResponse')
 def api_response(data):
     print(data)
-    print(data.get('response'))
 
 
 @sio.on('disconnect')
