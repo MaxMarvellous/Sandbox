@@ -1,5 +1,5 @@
 const io = require('socket.io-client');
-const socket = io.connect('http://127.0.0.1:5000', {
+const socket = io.connect('http://192.168.178.29:1337', {
     reconnection: true
 });
 let response = null;
